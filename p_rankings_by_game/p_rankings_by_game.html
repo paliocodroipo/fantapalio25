@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Classifica giocatori semplice</title>
+    <link rel="icon" href="../fantapalio_icon.png">
+    <link rel="stylesheet" href="../style.css?v=250721_2306">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+    <header>
+        <h1>Classifica Giocatori</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <a href="../index.html"><button class="rectangle-button">Indietro</button></a>
+            <a href="../player_detail/player_detail.html"><button class="rectangle-button">Dettaglio giocatori</button></a>
+            <a href="../meme_p_rankings/meme_p_rankings.html"><button class="rectangle-button">Classifica mematori</button></a>
+        </div>
+        <div class="dropdown-container">
+            <label for="sortSelect">Ordina per:</label>
+            <select id="sortSelect">
+                <option value="totale">Totale</option>
+                <option value="g1">G1 - Domenica</option>
+                <option value="g2">G2 - Lunedì</option>
+                <option value="g3">G3 - Mercoledì</option>
+                <option value="semifinale">Semifinale - Giovedì</option>
+                <option value="td3">Tiro da 3 - Venerdì</option>
+                <option value="finale">Finale - Sabato</option>
+            </select>
+        </div>
+        <div id="playerCardsContainer" class="player-cards-container">
+            <!-- Schede giocatori generate con JS -->
+        </div>
+    </main>
+
+    <script type="module" src="p_rankings_by_game.js?v=250721_2306"></script>
+    </div>
+</body>
+</html>

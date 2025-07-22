@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="style.css?v=250721_2306" rel="stylesheet">
+    <link rel="icon" href="fantapalio_icon.png">
+    <title>FantaPalio dei Rioni</title>
+    
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+
+    
+    <header>
+        <div class="header-content">
+            <img src="fantapalio_icon_25.png" alt="FantaPalio dei Rioni" class="headerlogo">
+            <br> 
+            <a href="https://paliodeirioni.it" class="top-right-link" target="_blank">Sito palio</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- <div class="avviso">
+            <h2 class="avviso_title">AVVISO</h2>
+            <p>Le squadre potranno essere registrate tramite l' apposito 
+                modulo di iscrizione
+                fino a <b>domenica sera alle 20:00</b>.<br>
+                Puoi usare questo sito per facilitare la scelta dei giocatori.<br>
+                Nel caso avessi problemi tecnici, puoi scriverci a fantapaliodeirioni@gmail.com o in direct su instagram.
+            </p>
+        </div> -->
+        <!-- <div class="avviso">
+            <p class="margin_top_and_bottom">PUNTI DELLA GARA DI TIRO DA 3 ONLINE!</p>
+            <p class="margin_top_and_bottom orange_text">I giocatori del SUD e dell' EST prenderanno il punteggio medio delle prime 4 partite in finale<br>(più eventuali punti meme aggiuntivi)</p>
+        </div> -->
+        <div class="avviso">
+            <h2 class="avviso_title">GRAZIE</h2>
+            <p class="margin_top_and_bottom">Con il Palio 2025 si conclude anche la seconda edizione del <span class= "orange_text">Fantapalio</span>,
+                 in cui la squadra "I mici da Kinshasa" del presidente Alessandro Rizzi ha trionfato.
+                Ci teniamo a ringraziare di cuore tutti coloro che hanno deciso di partecipare con la loro <span class= "orange_text">fantasquadra</span>,
+                 ci ha fatto molto piacere vedervi così numerosi.
+                Vogliamo anche ringraziare l'associazione e tutte le persone che si sono <span class= "orange_text">impegnate</span>
+                 per rendere l'edizione del Palio dei Rioni 2025 così bella, sia durante la settimana
+                  sia nei mesi precedenti.
+                Un grande grazie va anche ai ragazzi che hanno realizzato il <span class= "orange_text">Mixtape</span>,
+                 hanno settato l' asticella molto in alto.
+                Infine, vogliamo ringraziare i membri del <span class= "orange_text">Fanta Staff</span> che hanno reso possibile questo gioco:
+                 Go, Francesca, Sara, Richi, Chris per l' attenta registrazione delle statistiche,
+                  Dea per il conteggio punti meme non sempre facili da vedere,
+                  Gabri per la scrittura del commento giornaliero,
+                   Vitto per il supporto logistico,
+                    Martina per la gestione della pagina Instagram (se non lo fate già, seguiteci!),
+                     Francesco per la gestione dei punteggi e del sito.
+                <br><span class= "orange_text">Vi aspettiamo il prossimo anno ancora più carichi!</span>
+                <br><br>(le stats della finale sono online)
+            </p>
+        </div>
+        <div class="button-container">
+                    <!-- Non scommentare: -->
+                    <!-- <button class="refresh_button" onclick="window.location.href = window.location.pathname + '?cachebuster=' + new Date().getTime();">Refresh & Clear Cache</button> -->
+            <a href="https://www.instagram.com/fantapalio_dei_rioni/"><button class="instagram-button">Instagram fantapalio</button></a>
+            <!-- Nuovo 25:  -->
+            <!-- Da commentare:  -->
+            <!-- <a href="team_simulation/team_simulation.html"><button class="rectangle-button">Crea la squadra</button></a> -->
+            <a href="rules/rules.html"><button class="rectangle-button">Regolamento</button></a>
+
+            <!-- Da scommentare:  -->
+            <a href="hall_of_fame/hall_of_fame.html"><button class="rectangle-button">Fantagonfalone</button></a>
+            <!-- Da commentare:  -->
+            <!-- <a href="boxscores_tab/boxscores_tab.html"><button class="rectangle-button">Statistiche 2024</button></a> -->
+            <!-- Da scommentare:  -->
+            <a href="updates_page/updates_page.html"><button class="rectangle-button">Commento<br>dello staff</button></a>
+            <a href="coppachiosco/coppachiosco.html"><button class="rectangle-button">Coppa Chiosco</button></a>
+            
+
+            <!-- Nuovo 25:  -->
+            <a href="game_results/game_results.html"><button class="rectangle-button">Partite</button></a>
+            
+            
+                                    <!-- <a href="player_rankings_div/player_rankings.html"><button class="rectangle-button">Giocatori</button></a> -->
+                                    <!-- <a href="team_rankings_div/team_rankings.html"><button class="rectangle-button">Classifica fantasquadre</button></a> -->
+            <!-- Da scommentare:  -->
+            <a href="t_rankings_by_game/t_rankings_by_game.html"><button class="rectangle-button">Classifica Fantasquadre</button></a>
+            <!-- Da scommentare:  -->
+            <a href="p_rankings_by_game/p_rankings_by_game.html"><button class="rectangle-button">Giocatori</button></a> 
+        </div>
+        <!-- Da scommentare:  -->
+        <div class = "avviso">
+        <p class = "main_color_1_text"><b>LA MIA SQUADRA:</b></p><select id="teamDetails" class="dropdown"></select>
+        </div>
+        <div id="teamCardsContainer1" class="team_detail_team-cards-container1">
+            
+        </div>
+    </main>
+    <script type="module" src="data250721_2306.js"></script>
+    <script type="module" src="script.js?v=250721_2306"></script>
+    </div>
+</body>
+</html>

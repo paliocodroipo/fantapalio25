@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="../style.css?v=250721_2306" rel="stylesheet">
+    <link rel="icon" href="../fantapalio_icon.png">
+    <title>Statistiche Giocatori</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+    <header>
+        <h1>Statistiche Giocatori</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <!-- <a href="../player_rankings_div/player_rankings.html"><button class="rectangle-button">Indietro</button></a> -->
+            <a href="../p_rankings_by_game/p_rankings_by_game.html"><button class="rectangle-button">Indietro</button></a>
+        </div>
+        <p>Seleziona il giocatore:</p>
+        <select id="playerDetails" class="dropdown">
+            <!-- Le opzioni verranno caricate da JavaScript -->
+        </select>
+        <div id="playerStatsContainer" class="player-stats-container">
+            <!-- Le schede verranno aggiunte dinamicamente con JavaScript -->
+        </div>
+    </main>
+    <script type="module" src="player_detail.js?v=250721_2306"></script>
+    </div>
+</body>
+</html>
