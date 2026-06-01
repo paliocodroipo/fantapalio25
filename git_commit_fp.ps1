@@ -1,5 +1,6 @@
 # Run the Python script
-python version_prepare.py
+# python version_prepare.py
+python version_prepare_autotimestamps.py
 
 # Stage all changes
 git add .
